@@ -1,0 +1,5 @@
+box:
+  UseSeed: true
+  Overworld: 123
+  Nether: 123
+  End: 123
