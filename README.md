@@ -47,21 +47,21 @@ A modern and customizable Minecraft box system featuring private worlds, upgrade
 
 # 🖼️ Gallery
 
-## Main Menu
+## Box Menu
 
-![Main Menu](https://github.com/user-attachments/assets/0db3caa3-748f-499f-a744-693024938d4e)
-
----
-
-## Upgrade Menu
-
-![Upgrade Menu](https://github.com/user-attachments/assets/fa0f576f-500c-4202-83e3-5bc01f9ca60c)
+![Box Menu](https://github.com/user-attachments/assets/0db3caa3-748f-499f-a744-693024938d4e)
 
 ---
 
-## Random Teleport
+## RTP Menu
 
-![Random Teleport](https://github.com/user-attachments/assets/b6ababbd-2aee-48eb-b5fe-4a8501c87397)
+![RTP Menu](https://github.com/user-attachments/assets/fa0f576f-500c-4202-83e3-5bc01f9ca60c)
+
+---
+
+## Config
+
+![Config](https://github.com/user-attachments/assets/b6ababbd-2aee-48eb-b5fe-4a8501c87397)
 
 ---
 
