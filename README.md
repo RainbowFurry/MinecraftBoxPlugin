@@ -1,5 +1,10 @@
 # 📦 Box
 
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21+-green)
+![Paper](https://img.shields.io/badge/Server-Paper-blue)
+![Java](https://img.shields.io/badge/Java-21-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 A modern and customizable Minecraft box system featuring private worlds, upgrades, friends, and random teleportation.
 
 ---
