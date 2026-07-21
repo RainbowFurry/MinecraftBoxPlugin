@@ -1,9 +1,6 @@
 package net.rainbowfurry.boxSMP;
 
-import net.rainbowfurry.boxSMP.builder.CustomMenu;
-import net.rainbowfurry.boxSMP.builder.InventoryBuilder;
-import net.rainbowfurry.boxSMP.builder.ItemBuilder;
-import net.rainbowfurry.boxSMP.builder.Translation;
+import net.rainbowfurry.boxSMP.builder.*;
 import net.rainbowfurry.boxSMP.commands.BoxCommand;
 import net.rainbowfurry.boxSMP.commands.RandomTeleport;
 import net.rainbowfurry.boxSMP.commands.TestCommand;
@@ -11,10 +8,7 @@ import net.rainbowfurry.boxSMP.eventListener.BoxBuildEvents;
 import net.rainbowfurry.boxSMP.eventListener.BoxInteractionEvents;
 import net.rainbowfurry.boxSMP.eventListener.BoxManagementEvents;
 import net.rainbowfurry.boxSMP.eventListener.inventory.*;
-import net.rainbowfurry.boxSMP.manager.ConfigManager;
-import net.rainbowfurry.boxSMP.manager.PluginConfigManager;
-import net.rainbowfurry.boxSMP.manager.LogManager;
-import net.rainbowfurry.boxSMP.manager.WorldManager;
+import net.rainbowfurry.boxSMP.manager.*;
 import org.bukkit.Material;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -30,6 +24,11 @@ public final class BoxSMP extends JavaPlugin {
     public static ItemBuilder itemBuilder;
     public static WorldManager worldManager;
     public static CustomMenu customMenu;
+    public static XpBarManager xpBarManager;
+    public static PlayerSkullBuilder playerSkullBuilder;
+    public static BossBarManager bossBarManager;
+    public static ScoreboadBuilder scoreboadBuilder;
+    public static RTPManager rtpManager;
 
     // DB
     // Money System
@@ -61,10 +60,19 @@ public final class BoxSMP extends JavaPlugin {
         pluginConfigManager = new PluginConfigManager();
         configManager = new ConfigManager();
         translation = new Translation();
+
         inventoryBuilder  = new InventoryBuilder();
         itemBuilder  = new ItemBuilder(Material.AIR);
+
         worldManager = new WorldManager();
         customMenu = new CustomMenu();
+        xpBarManager = new XpBarManager();
+        playerSkullBuilder = new PlayerSkullBuilder();
+        bossBarManager = new BossBarManager();
+        scoreboadBuilder = new ScoreboadBuilder();
+        rtpManager = new RTPManager();
+        worldManager = new WorldManager();
+
         logManager.info("<green>The Plugin</green> <yellow>BoxSMP</yellow> <green>is getting</green> <lime_green><b>started</b>!</lime_green>");
         logManager.info("<aqua>Developer</aqua>: <gradient:#FF0000:#FF7F00:#FFFF00:#00FF00:#0000FF:#8B00FF><b>RainbowFurry</b></gradient>");
     }
